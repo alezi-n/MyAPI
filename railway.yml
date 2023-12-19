@@ -1,0 +1,6 @@
+version: 1
+services:
+  - name: web
+    env:
+      - PORT=8000
+    script: ./start.sh
